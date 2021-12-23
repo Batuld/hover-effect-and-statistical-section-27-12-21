@@ -1,0 +1,54 @@
+/*h1{
+    text-align: left;
+    font-size: 30px;
+    border: 0;
+    font: verdana;
+    color: rgb(3, 34, 63);
+    }*/
+    /*.slider-box{
+        width: 90px;
+        height: 70px;
+        margin: 30px;
+        position: relative;*/
+
+        body h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    .top{ 
+        left:450px;
+        float:left;
+        position:relative;
+        margin-top:30px;
+        }
+
+.mainhead{
+    
+    padding-left: 20px;
+}
+    #body1{
+        background-color:white;
+        width: 1860px;
+        height:150px;
+        
+    }
+    #body2{
+        width: 1850px;
+        height:800px;
+        padding:0px;
+        margin:0px;
+    }
+    #logo{
+        width:250px;
+        height:125px;
+        position: relative;
+        float: left;
+        margin: 10px 10px 10px 10px;
+    }
+    #bimg
+    {
+        width:1830px;
+        height:800px;
+        margin:0px;
+        padding:0px;
+    }
+    
