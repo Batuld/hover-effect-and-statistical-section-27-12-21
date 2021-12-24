@@ -1,54 +1,125 @@
-/*h1{
-    text-align: left;
-    font-size: 30px;
-    border: 0;
-    font: verdana;
-    color: rgb(3, 34, 63);
-    }*/
-    /*.slider-box{
-        width: 90px;
-        height: 70px;
-        margin: 30px;
-        position: relative;*/
+/* Header section */ 
 
-        body h1{
-            font-family: 'Times New Roman', Times, serif;
-        }
-    .top{ 
-        left:450px;
-        float:left;
+  .top{ 
+        left:700px;
         position:relative;
-        margin-top:30px;
+        margin-top:10px;
+        list-style: none;
+        line-height: 110px;
+        height:30;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:18px;
+        display:block;
+        transition:0.5s;
+     }
+  .top :hover::after{
+    width:100%
+  }
+  .mainhead{
+    padding-left: 20px; 
+      }
+  li{
+        float: left;
+        text-decoration: none;
         }
 
-.mainhead{
+ 
+
+/* For logo */
+
+  #logo{
+          width:250px;
+          height:130px;
+          position: relative;
+          float: left;
+          margin: 10px 10px 10px 10px;
+      }
+
+/* Home section css */
+
+  #services{
+      width: 1850px;
+      height:800px;
+      padding:0px;
+      margin:0px;
+    }
     
-    padding-left: 20px;
-}
-    #body1{
-        background-color:white;
-        width: 1860px;
-        height:150px;
-        
-    }
-    #body2{
-        width: 1850px;
-        height:800px;
-        padding:0px;
-        margin:0px;
-    }
-    #logo{
-        width:250px;
-        height:125px;
-        position: relative;
-        float: left;
-        margin: 10px 10px 10px 10px;
-    }
-    #bimg
-    {
+  #bimg{
         width:1830px;
         height:800px;
         margin:0px;
         padding:0px;
     }
-    
+    /*to make what we serve in cemnter*/
+  .cen{ 
+        text-align: center;
+    }
+
+/* services css */
+
+  body h1{
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+ /* service section for grid */
+
+  :root{
+        --var-justify-content: 'start';
+        --var-align-content: 'start';
+    }
+     
+  .container{
+        display: grid;
+        align-content: var(--var-align-content);
+        justify-content: var(--var-justify-content);
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 350px 350px 350px;
+        gap: 0.0px;
+        background-color: white;
+        padding: 5px;
+        max-width: 75rem;
+        block-size: 1000px;
+        margin-left: 300px;
+        margin-top: 50px; 
+    }
+  .box{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 2px solid grey;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-family: inherit; 
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: grey;
+        border-bottom-color: transparent;
+    }
+    .box:nth-child{
+        grid-row: 3/ 3;
+        grid-column: 3/3;
+    }
+    .box:nth-child(-n+3){
+        border-bottom: 1px solid grey;
+    }
+
+    .box:nth-child(3n-3){
+        border-right-color: transparent;
+    }
+
+/* for details of services*/
+
+    .gridpara{
+        font-size:1rem
+      } 
+
+/*for statistics section*/
+
+    .statistics{ 
+      width: 1850px;
+      height:800px;
+      padding:0px;
+      margin:0px;
+      background-color: black;
+      /* background: linear-gradient(to right, #0b1635, #0d5ca0);*/
+        }
+      
