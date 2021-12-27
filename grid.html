@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>grid</title>
+       
+    </head>
+    <style>
+        .container{
+            display:grid;
+            /*background: lightskyblue;*/
+            width:500px;
+            height:63em;
+            margin:auto;
+            grid-template-columns:repeat(3,auto);
+           /* grid-template-rows: 150px 200px auto auto;*/
+            grid-gap:1em;
+        }
+        .griditem {
+            border:1px solid mediumblue;
+           
+        }
+
+        .griditem:first-child{
+           background: green;
+           grid-column-start: 1;
+            grid-column-end: 4;
+            
+
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="container">
+<div class="griditem">1</div>
+<div class="griditem">2</div>
+<div class="griditem">3</div>
+<div class="griditem">4</div>
+<div class="griditem">5</div>
+<div class="griditem">6</div>
+<div class="griditem">7</div>
+<div class="griditem">8</div>
+<div class="griditem">9</div>
+<div class="griditem">10</div>
+</div>
+
+
+
+
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,51 @@
+<div  id="service"> 
+<div class="cen"><h1>What we server?</h1></div>
+</div>
+
+grid-column-start:1;
+grid-column-end:4;
+grid-row-start:1;
+grid-row-end:2;
+
+.box:nth-child{
+    grid-row:3/3;
+    grid-column:3/3;
+ }
+
+ display: grid;
+ width: 1850px;
+ height:800px;
+ padding:0px;
+ margin:0px;
+ background-color: black;
+
+ .navbar-nav :hover::after{
+    width:100%
+  }
+
+  height="140" width="250"
+
+  .container{
+    border:1px solid grey;
+    display:grid;
+}
+
+
+/*  .griditem:first-child{
+        width:1000px;
+       
+    }*/
+
+    background: green;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      padding:right;
+      text-align: center;
+
+      End Status: inline styles completed
+                  px values completed
+                  laracast grid course completed with practical
+
+     statistics section,
+     hover effect in header completed 
+     and will complete flex box of laracasts and responsiveness in website by tommorrow
