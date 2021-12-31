@@ -3,16 +3,29 @@
     <head>
         <link rel="stylesheet" type="text/css" href="/home/webelight-062/Desktop/webelight_web/webelightcss.css">
 
-        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>webelight solution</title>
        
     </head>
-    <body>
-        <nav>
-            <img src="img/main-logo.png" id="logo">
+  
+       
+
+          <!--  <button type="button" class="navbar-tog
+        </label>gle" data-toggle="collapse" data-target="micon">
+                <span class="navbar-togger-icon">
+                    <img src="img/index1.svg"></span>
+               <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             
-            <ul class="navbar-nav">
+            
+            <a href=""><img class="collapse  navbar-collapse" id="micon"> </a>-->
+        <nav class="navbar-style">
+        
+            <img src= "img/main-logo.png" id="logo">
+            
+            <ul class="navbar-nav" >
                <li class="nav-item"><a href= "#home" class="nav-link">Home</a></li>
                <li class="nav-item"><a href= "#service" class="nav-link">Service</a> </li> 
                <li class="nav-item"><a href= "#statistics" class="nav-link">Statistics </a></li>
@@ -20,17 +33,79 @@
                <li class="nav-item"><a href="#hireus" class="nav-link">Hire Us</a></li>
                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
                <li class="nav-item"><a href="#technologies"class="nav-link">Technologies</a></li>
-            </ul>
-        </nav>
-           
-            <div  id="bg">
-                <img src="img/bg.jpg"  id="bimg">
-            </div>
-            <div  id="service"> 
-                <div class="cen"><h1>What we server?</h1></div>
+               <li class="nav-item"><a href="#contact"class="nav-link">contact</a></li>
+          </ul>  
+          </nav>
+              <body>
+                <div class="flex-container">
+                    <div class="right-side">
+                        <h1 class=big-text>Web App Development</h1>
+                             <p class="bg-para">We at Webelight, provides one step solutions for all you web development make sure your website represent the core values of your company. </p>
+            <a class="btn btn" href="#contact">Let's Talk</a>
+                    </div>
+                     <div  class="left-side">
+                        <img src="img/web_app_development.svg" class="img-responsive web-img">
+                    </div>
                 </div>
+                
+           <!--        <div class="row">
+
+                <div class="col-sm-6">
+                         <h1 class=big-text>Mobile app Development</h1>
+                            <p class="bg-para">We provide a dedicated team of developers which ensures the </p>
+                            <p class="bg-para">delivery of quick-to-market quality solutions in a cost and time efficient</p>
+                            <p class="bg-para"> manner.</p>
+                           
+                        <a class="btn btn" href="#contact">Let's Talk</a>
+                    </div>
+                 </div>
+    
+                    <div class="col-sm-6">
+                        <img src="img/undraw_insert_block_efyb.svg" class="img-responsive web-img">
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                             <h1 class=big-text>Block chain Development</h1>
+                                <p class="bg-para">White Paper Solutions, Smart Contract Creation, New DLT</p>
+                                <p class="bg-para">Creation</p>
+                            <a class="btn btn" href="#contact">Let's Talk</a>
+                        </div>
+                     </div>
+        
+                        <div class="col-sm-6">
+                            <img src="img/undraw_digital_currency_qpak.svg" class="img-responsive web-img">
+                        </div>
+                        <div class="row"> margin-bottom: 100em;
+                                    <p class="bg-para">  delivery for true enterprise-level DevOps.</p>
+                                <a class="btn btn" href="#contact">Let's Talk</a>
+                            </div>
+                         </div>
+            
+                            <div class="col-sm-6">
+                                <img src="img/undraw_server_status_5pbv.svg" class="img-responsive web-img">
+                            </div>
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                     <h1 class=big-text>hire web/Mobile app Development</h1>
+                                        <p class="bg-para">Dedicated highly qualified professional to meet your </p>
+                                        <p class="bg-para">expectations and achieve the goal in short period of </p>
+                                        <p class="bg-para"> time and cost efficient manner. </p>
+                                    <a class="btn btn" href="#contact">Let's Talk</a>
+                                </div>
+                             </div>
+                
+                                <div  class="col-sm-6">
+                                    <img src="img/undraw_hiring_cyhs.svg" class="img-responsive web-img">
+                                </div>
+                                --> 
+       
+</div>
              
-                <div class="container">
+                <div class="container" id="services">
+                        <div class="box"><h1 class="service">What we server?</h1></div>
+                        
                         <div class="box" >
                         <img class="custom-image" src="img/web_dev.svg" alt="webdevelopment">
                         <h5>Web Development</h5><p class="gridpara">Lorem ipsum dolor sit amet,sed do eiusmod tempor incididunt ut labore et dolore magna anisi ut aliquip ex ea commodo consequat.</p></div>
@@ -46,7 +121,7 @@
                         <div class="box"> 
                             <img class="custom-image" src="img/devops.png" alt="webdesign">
                         <h5>DevOps</h5><p class="gridpara">Lorem ipsum dolor sit amet,sed do eiusmod tempor incididunt ut labore et dolore magna anisi ut aliquip ex ea commodo consequat.</p></div>
-                        
+
                         <div class="box">
                         <img class="custom-image" src="img/cloud_ser.png" alt="webdesign">
                         <h5>Cloud Services</h5><p class="gridpara">Lorem ipsum dolor sit amet,sed do eiusmod tempor incididunt ut labore et dolore magna anisi ut aliquip ex ea commodo consequat.</p></div>
@@ -54,11 +129,226 @@
                         <div class="box"> 
                             <img class="custom-image" src="img/bussiness_app.png" alt="webdesign">
                         <h5>Bussiness Apps(ERP)</h5><p class="gridpara">Lorem ipsum dolor sit amet,sed do eiusmod tempor incididunt ut labore et dolore magna anisi ut aliquip ex ea commodo consequat.</p></div>
-                    </div>  
-               
-                <div id="statistics" class="statistic">   </div>  
+                    </div> 
+
+           <div class="container-statistic" id="statistics" >
+                <div class="statistic-box"> 
+                    <img class="statistic-img" src="img/happiness.svg" alt="statistic-img"><p class="statistics-title">Happy Client</p>
+                </div>
+                <div class="statistic-box"> 
+                    <img class="statistic-img" src="img/project-management.svg" alt="statistic-img"><p class="statistics-title">Project</p>
+                </div>
+                <div class="statistic-box"> 
+                    <img class="statistic-img" src="img/calendar.svg" alt="statistic-img"><p class="statistics-title">Years Experience</p>
+                </div> 
+                <div class="statistic-box"> 
+                    <img class="statistic-img" src="img/cup-of-hot-chocolate.svg" alt="statistic-img"><p class="statistics-title">Coffee Cups</p>
+                </div>
+                <div class="statistic-box"> 
+                    <img class="statistic-img" src="img/scoring.svg" alt="statistic-img"> <p class="statistics-title">High Score</p>
+                </div>
+            </div>
+              
+<div class="process-container" id="process">
+
+        
+         <div class="process-box"><h1 class="work">How we work?</h1></div>
+         
+        <div class="process-box"><span class="number">01</span>
+            <h2 class="process-text">Planning & Communicate</h2></div>
+
+        <div class="process-box"> 
+            <div>
+                 <img class="process-image" src="img/Group-1.png" alt="work-process" width="400">
+            </div>
+        </div>
+
+        <div class="process-box">
+            <div>
+                <img class="process-image" src="img/siting.svg" alt="work-process" width="400">
+            </div>
+        </div>
+
+        <div class="process-box">   <span class="number">02</span>
+            <h2 class="process-text">Prototyping & Designing</h2></div>
+
+        <div class="process-box"><span class="number">03</span>
+            <h2 class="process-text">Codify & Development</h2></div>
+
+
+        <div class="process-box">
+            <div>
+                <img class="process-image responsive-img-process" src="img/coding.png" alt="work-process" width="400">
+            </div>
+        </div>
+
+        <div class="process-box">
+            <div>
+                <img class="process-image" src="img/testing.png" alt="work-process" width="400">
+            </div>
+        </div>
+
+        <div class="process-box">
+            <span class="number">4</span>
+            <h2 class="process-text">Testing & Deploy</h2>
+        </div>
+</div>
+
+<div class="flex-container-box">
+    <div class="right-side-box">
+       <div class="hire__card__ribbon position-absolute">
+        <span>Hire Developer</span>
+       </div>
+        <img src="img/hire1.svg" class="hire-us-img">
+        <h3 class="hire-text">Web App Development</h3>
+             <p class="hire-para">
+                We provide a team of right developers by your side which can ensure top quality services in a timely manner. We have relevant expertise and experience with Mobile Technology and our passionate to fulfil your expectations. Hire us today !
+             </p>
+
+<a class="btn-btn" href="#contact">Let's Talk</a>
+    </div>
+
+     <div  class="left-side-box">
+        <div class="hire__card__ribbon position-absolute">
+            <span>Hire Developer</span>
+        </div>
+        <img src="img/hire2.svg" class="hire-us-img">
+        <h3 class="hire-text">Mobile App Developer</h3>
+        <p class="hire-para">
+            In order to leverage its potential in the true essence, you need a team of right developers by your side which can ensure top quality services in a timely manner. We have relevant expertise and experience with Web Technology and our eagerly passionate to fulfil your expectations.
+         </p>
+
+         <a class="btn-btn" href="#contact">Let's Talk</a>
+       
+    </div>
+</div>
+
+<h1 class="portfolio-text">Portfolio</h1>
+
+<div class="flex-Portfolio-container"  id="portfolio">
+
+   
+    <div class="right-box">
+        <div class="portfolio-col">
+            <img class="port-img" src="img/portfolio1.png">
+            <div class="layer">
+                <h3>Explore</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle-box">
+        <div class="portfolio-col">
+            <img class="port-img" src="img/portfolio2.png">
+            <div class="layer">
+                <h3>LyfCheck</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-box">
+        <div class="portfolio-col">
+            <img class="port-img" src="img/portfolio3.png">
+            <div class="layer">
+                <h3>School of Archeiver</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="technologies-container" id="technologies">
+    <div class="tech-box">
+        <h1 class="tech-head">TECHNOLOGIES WE USE</h1></div>
+
+    <div class="tech-box"><img class="text-img" src="img/react-js-logo.svg"><h3 class="tech-text">React Native</h3></div>
+    <div class="tech-box"><img class="text-img" src="img/react-js-logo.svg"><h3 class="tech-text">React JS</h3></div>
+    <div class="tech-box"><img class="text-img" src="img/angular.svg"><h3 class="tech-text">Angular JS</h3></div>
+    <div class="tech-box"><img class="text-img" src="img/vue-logo.png"><h3 class="tech-text">Vue JS</h3></div>
+    <div class="tech-box"><img class="text-img" src="img/nodejs-new-pantone-black.png"><h3 class="tech-text">Node JS</h3></div>
+    <div class="tech-box"><img class="text-img" src="img/Laravel_logo-700x508.png"><h3 class="tech-text">Laravel</h3></div>
+    <div class="tech-box"><img class="text-img" src="img/837200_ed52_11.jpg"><h3 class="tech-text">GoLang</h3></div>
+    <div class="tech-box"><img class="text-img" src="img/graphql.png"><h3 class="tech-text">GraphQL</h3></div>
+</div>
+<!--
+<h3 class="portfolio-text" >Contact Us</h3>
+
+  <form class="form-inline">
+
+    <label class="con-text"for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter Name..">
+
+    <label class="con-text" for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email">
+
+    <label class="con-text" for="phone">Phone</label>
+    <input type="text" id="phno" name="email" placeholder="Enter Contact">
+
+    <p class="message">
+    <label class="con-text size" for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Enter Message" style="height:200px"></textarea>
+</p>
+<p class="submit">
+    <button type="submit">Submit</button>
+</p>
+  </form>
+-->
+<form>
+  <div class="container-con" id="contact">
+
+        <div class="con-box"> <h1 class="tech-head">Contact Us</h1></div>
+        
+        <div class="con-box">2</div>
+        <div class="con-box">3</div>
+        <div class="con-box">4</div>
+        <div class="con-box">5</div>
+        <div class="con-box">6</div>
+</div>
+</form>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                   <img src="images/amazon.jpg">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure Android
+                        Benefits of Sports Accessible to the Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>FAcebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
 
             </div>
-                   
-    </body>
+                <hr>
+                <p class="copyright">Copyright 2021 Amazon</p>
+        </div>
+
+    </div>
+ 
+</body>
 </html>

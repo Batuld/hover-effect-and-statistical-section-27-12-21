@@ -42,10 +42,115 @@ grid-row-end:2;
       padding:right;
       text-align: center;
 
-      End Status: inline styles completed
-                  px values completed
-                  laracast grid course completed with practical
+      End Status:hire us,Portfolio and technology section done,
+                  website contact section and footer section is going on
 
      statistics section,
      hover effect in header completed 
      and will complete flex box of laracasts and responsiveness in website by tommorrow
+     
+     align-items:center;
+
+     <input type="checkbox" id="checkbox">
+     <label for="check" class="checkbtn"></label>
+     <i class="fas fa-align-justify"></i>
+
+     padding:7px 13px;
+     border-radius:3px;
+
+     nav ul li a:hover{
+      color:#000000;
+      text-decoration:underline;
+  }
+  
+  nav ul.active{
+      color:black;
+      
+  }
+
+  a.active,a:hover{
+    background:brown;
+    transition: 0.5s;
+}
+     
+
+.background{ 
+     
+  background-color: violet;
+  height:650px;
+ }
+
+ .background{ 
+  margin:0px;
+  background-color: violet;
+  height:800px;
+ }
+
+ width:15em;
+      margin: 10px 10px 10px 10px;
+
+
+      height:140px;
+      width:250px;
+
+
+      .responsive-img-process{
+        max-width: 100%;
+        height: auto;
+      
+      }
+
+
+      .process-box:nth-child(3n+6) {
+        border-right-color:transparent;
+      }
+
+      /* 
+ border-left-color: transparent;
+
+        border-bottom-color: transparent;
+        border-top-color: transparent;
+
+
+ border-right: transparent;
+
+ box:nth-child(4n-7){
+     border-top: transparent;
+   }*/
+  
+ /*   .box:nth-child(-n+4){
+        border-bottom: 1px solid grey;
+     }
+
+    
+*/
+
+border: 2px solid rgb(73, 121, 177);
+
+background:transparent;
+  height: 100%;
+ 
+  position: absolute;
+  top:0;
+  left:0;
+  transition: 0.5s;
+
+.layer:hover{
+  background: rgba(226,0,0,0.7);
+}
+.layer h3{
+  width: 100%;
+  font-weight: 500;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  
+}
+
+<img class="text-img" src="react-js-logo.svg">
+
+grid-template-columns:em;
+  grid-template-rows:7em 25em 25em 25em 25em;

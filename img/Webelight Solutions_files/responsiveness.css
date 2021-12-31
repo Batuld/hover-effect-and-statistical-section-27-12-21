@@ -1,0 +1,126 @@
+@media (min-width : 1025px)
+{
+  .flex1 {
+    flex: 0.56;
+}
+.flex2 {
+  flex: 0.1 2 13rem;
+}
+
+}
+@media (min-width : 1025px) and (max-width : 1750px)
+{
+    .main-banner .btn-primary {
+      color: #fff;
+      font-weight: bold;
+      background-color: #3f3d56;
+      border-color: #3f3d56;
+      padding: .3rem 1.3rem;
+      border-radius: 25px;
+      font-size: 1.2rem;
+  }
+  .main-banner__title {
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+   
+}
+
+@media (min-width : 768px) and (max-width : 1024px)
+{  
+    .main-banner__title
+    {
+      margin-top: 1rem;
+      font-size: 2.5rem;
+    }
+    .main-banner__subtitle
+    {
+    font-size: 1.75rem;
+    }   
+    .main-banner .btn-lg {
+    padding: .7rem 2.6rem;
+    border-radius: 45px;
+    font-size: 2rem;
+  }
+}
+
+/* banner end */
+
+@media (min-width: 1281px) {
+      .new-container {
+        max-width: 1500px;
+    }
+   
+}
+
+@media (min-width: 576px)
+{
+   .processes .ml-sm-8, .mx-sm-8 {
+    margin-left: 7.5rem;
+  }
+  .processes__number {
+    font-size: 5.584rem;
+  }
+}
+
+@media (min-width: 992px)
+  {
+    .processes .pl-lg-7, .px-lg-7 {
+      padding-left: 5rem;
+  }
+  .processes .pt-lg-2, .py-lg-2 {
+    padding-top: 2.5rem;
+  }
+
+  .processes .pt-lg-8, .py-lg-8 {
+    padding-top: 5.5rem;
+  }
+
+  .processes .mt-lg-8, .my-lg-8 {
+    margin-top: 7.5rem !important;
+  } 
+  .processes .border-lg-right {
+    border-right: 1px solid #e1e1e1;
+  }
+  .processes .border-lg-left {
+    border-left: 1px solid #e1e1e1;
+  }
+  .processes .border-lg-bottom {
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .processes .pb-lg-8, .py-lg-8 {
+    padding-bottom: 5.5rem;
+  }
+  .processes .ml-lg-6, .mx-lg-6 {
+    margin-left: 4rem;
+  }
+}
+
+@media only screen and (max-width : 767px){
+
+    .logo .desktop {
+      width: 9rem;
+    }
+  
+    .main-banner__title{
+      font-size: 2rem;
+    }
+    
+    .onclick-space:before
+    {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+  @media (min-width: 1200px)
+  {
+.custom-container {
+    max-width: 1320px;
+}
+  }
+
+@media (max-width: 992px) {
+  .counter {
+   margin-bottom: 10px;
+  }
+  }
